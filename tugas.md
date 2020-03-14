@@ -30,7 +30,7 @@ Line breaks dibuat dengan menekan enter 2 kali
 
 ## Horizontal Rules
 
-garis lurus dapat dibuat menggunakan kode dibawah ini
+garis lurus dapat dibuat menggunakan kode * atau _ atau juga - sebanyak tiga
 
 ***
 ____

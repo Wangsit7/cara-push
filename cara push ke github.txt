@@ -25,5 +25,5 @@ git pull origin branch
 
 Apabila error some refs to, jalankan :
 git pull --rebase origin master
-git rebase --continue
+git rebase --continue (yang ini opsional, tergantung keterangan error)
 git push -u origin master

@@ -1,0 +1,29 @@
+Cara push ke github
+git config --global user.name "nama"
+git config --global user.email "a@gmail.com"
+git init
+git add .
+git commit -m "pesan"
+git branch -M nama_branch
+git remote add origin url
+git push -u origin nama_branch
+
+Cara pindah branch
+git checkout nama_branch
+
+Cara bikin branch baru
+git branch -m nama_branch
+
+Cara clone
+git clone url
+
+Cara pull
+git init
+git branch -M nama_branch
+git remote add origi url
+git pull origin branch
+
+Apabila error some refs to, jalankan :
+git pull --rebase origin master
+git rebase --continue
+git push -u origin master

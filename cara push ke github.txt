@@ -25,13 +25,8 @@ git pull origin branch
 
 Apabila error some refs to, jalankan :
 git pull --rebase origin master
-<<<<<<< HEAD
 git rebase --continue (yang ini opsional, tergantung keterangan error)
-git push -u origin master
-=======
-git rebase --continue
 git push -u origin master
 
 sudah push tapi tidak ada keterangan? coba jalanin :
 git push -u origin HEAD
->>>>>>> 7788a0a (Update cara push ke github.txt)
